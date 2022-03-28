@@ -1,0 +1,18 @@
+{
+  "name": "cute-cli",
+  "version": "1.0.0",
+  "description": "脚手架",
+  "main": "index.js",
+  "bin": {
+    "cute-cli": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "dongjianglong",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^9.1.0"
+  }
+}
