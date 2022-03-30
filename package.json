@@ -4,7 +4,7 @@
   "description": "脚手架",
   "main": "index.js",
   "bin": {
-    "cute-cli": "bin/cli.js"
+    "@cc": "bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,16 @@
   "keywords": [],
   "author": "dongjianglong",
   "license": "ISC",
-  "devDependencies": {
-    "commander": "^9.1.0"
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.1.2",
+    "commander": "^9.1.0",
+    "cross-spawn": "^7.0.3",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.2",
+    "ora": "^5.4.1",
+    "shelljs": "^0.8.5"
   }
 }
